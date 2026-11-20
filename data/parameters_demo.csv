@@ -1,0 +1,12 @@
+﻿group,parameter,low,high,unit,evidence,source_ref,reference_period,model_use
+large,demand,120,220,model_unit_per_tick,assumption,DEMO,synthetic,Nhu cầu EA cơ sở mỗi tác tử mỗi kỳ
+sme,demand,12,32,model_unit_per_tick,assumption,DEMO,synthetic,Nhu cầu EA cơ sở mỗi tác tử mỗi kỳ
+green,issuance,12,20,model_unit_per_tick,assumption,DEMO,synthetic,Lượng CC hợp lệ phát hành bởi một dự án mỗi kỳ
+large,quota_ratio,0.85,1.35,ratio,assumption,DEMO,synthetic,EA cấp mới cơ sở chia nhu cầu cơ sở
+sme,quota_ratio,0.7,1.2,ratio,assumption,DEMO,synthetic,EA cấp mới cơ sở chia nhu cầu cơ sở
+large,cash_ratio,12,22,ratio,assumption,DEMO,synthetic,Tiền ban đầu chia giá trị nhu cầu carbon một kỳ theo giá gốc
+sme,cash_ratio,2,5,ratio,assumption,DEMO,synthetic,Tiền ban đầu chia giá trị nhu cầu carbon một kỳ theo giá gốc
+large,margin,0.85,1,ratio,assumption,DEMO,synthetic,Biên thu hoạt động trước chi phí cố định và giao dịch carbon
+sme,margin,0.78,0.95,ratio,assumption,DEMO,synthetic,Biên thu hoạt động trước chi phí cố định và giao dịch carbon
+large,fixed_cost,0.35,0.44,ratio,assumption,DEMO,synthetic,Chi phí cố định theo quy mô cơ sở
+sme,fixed_cost,0.43,0.58,ratio,assumption,DEMO,synthetic,Chi phí cố định theo quy mô cơ sở
