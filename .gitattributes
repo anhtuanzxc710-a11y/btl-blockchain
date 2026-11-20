@@ -1,0 +1,3 @@
+contracts/*.sol -text
+blockchain/Ket_qua_Remix_VM.md -text
+blockchain/check_quota.py -text
