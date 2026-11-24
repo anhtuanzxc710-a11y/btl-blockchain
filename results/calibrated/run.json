@@ -1,0 +1,27 @@
+{
+  "input_file": "parameters.csv",
+  "input_sha256": "2916588135bcd3b2a91c6a4c742c2980223d8e62049b7d81c543a5f7d1305a25",
+  "source_unit": "model_unit_per_tick",
+  "ledger_unit": "model_unit",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "ticks": 100,
+  "agents": 200,
+  "shock_tick": 30,
+  "scenarios": [
+    "S0",
+    "S1"
+  ]
+}
